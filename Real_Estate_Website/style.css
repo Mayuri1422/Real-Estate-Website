@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    font-size: 1rem;
+    width: 40%;
+    line-height: 1.5rem;
+}
+
+.text-gray {
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.8rem;
+    width: 100%;
+
+}
+
+.wrapper {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.wrapper-padding {
+    padding-top: 14rem;
+}
+
+.wrapper-div {
+    padding: 5rem 0;
+}
+
+/* Home Section */
+.hero-section {
+    width: 100%;
+    background-image: url(/Images/unsplash_w3eFhqXjkZE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section-scroll-down-image {
+    max-width: 4rem;
+}
+
+/* Navbar */
+.navbar-btn {
+    width: 15rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    color: black;
+    border: 1px solid rgb(213, 209, 209);
+}
+
+.navbar-hero-btn {
+    background-color: transparent;
+    width: 15rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    color: white;
+    border: 1px solid rgb(213, 209, 209);
+}
+
+.navbar-hero-btn:hover {
+    background-color: white;
+}
+
+.navbar-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.contact-us-navbar-btn {
+    height: 5rem;
+    padding: 1.8rem 0;
+    background-color: black;
+    color: white;
+}
+
+.contact-us-navbar-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-us-hero-navbar-btn {
+    height: 5rem;
+    padding: 1.8rem 0;
+    background-color: white;
+    color: black;
+}
+
+/* Brands Scroller */
+.brands-logos-section {
+    background-color: #353535;
+    height: 3rem;
+    overflow: hidden;
+}
+
+/* About-Us Section */
+.about-us-section-img {
+    max-width: 80%;
+    width: 100%;
+}
+
+.about-us-section-blue-div {
+    max-width: 100%;
+    width: 100%;
+    height: max-content;
+    background-color: #004D93;
+    margin-top: 1.5rem;
+    left: 40%;
+    z-index: 1;
+}
+
+/* Services Section */
+.services {
+    background-color: black;
+}
+
+.services-paragraphs {
+    font-size: 1rem;
+    color: gray;
+    width: 100%;
+}
+
+.services-paragraphs:hover {
+    color: white;
+}
+
+.services-img1 {
+    max-width: 90%;
+    width: 100%;
+}
+
+.services-card {
+    max-width: 90%;
+    width: 100%;
+    margin-top: 7rem;
+    border-radius: 0;
+}
+
+.services-card-body {
+    max-width: 90%;
+    width: 100%;
+}
+
+/* Residential Fortd Section */
+.residential-fortd-rightdiv {
+    margin-top: 25%;
+}
+
+.residential-fortd-blue-div {
+    max-width: 100%;
+    width: 100%;
+    height: max-content;
+    background-color: #004D93;
+    margin-top: 1.5rem;
+    margin-left: -20%;
+}
+
+.residential-fortd-section2-divs {
+    border: 1px solid rgb(187, 185, 185);
+    height: 12rem;
+}
+
+.residential-fortd-section2-divs-heading {
+    color: #004D93;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.residential-fortd-section2-divs-subheading {
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.residential-fortd-section2-right-divs-img1 {
+    max-width: 45%;
+    width: 100%;
+}
+
+.residential-fortd-button {
+    max-width: 45%;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.residential-fortd-section2-right-divs-img2 {
+    top: 40%;
+    left: 50%;
+    max-width: 45%;
+    width: 100%;
+}
+
+/* Client Feedback Section */
+.client-feedback-card {
+    transition: transform 0.5s ease-in-out;
+    flex: 0 0 calc(33.33% - 1rem);
+    /* Default: 3 cards per row */
+    height: auto;
+    /* Adjust height dynamically */
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    background-color: #E5E5E5;
+    color: black;
+    padding: 1rem;
+}
+
+.client-feedback-card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-track {
+    display: flex;
+    gap: 1rem;
+    width: 100vw;
+    animation: scroll 50s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slide-track1 {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    animation: scroll-backword 25s linear infinite;
+}
+
+@keyframes scroll-backword {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: black;
+    width: 100%;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* About-Us Page CSS */
+
+.about-us-page-section {
+    height: 85%;
+}
+
+.about-us-page-section-image {
+    height: 85%;
+}
+
+.about-us-section-half-borderd-div {
+    max-width: 81%;
+    border-left: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    padding: 1.5rem;
+}
+
+.about-us-section-half-borderd-div p {
+    color: gray;
+    max-width: 100%;
+    width: 85%;
+}
+
+.why-choose-section-heading {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 4rem;
+}
+
+.why-choose-paragraph {
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.8rem;
+}
+
+.gray-border {
+    border: 1px solid rgb(55, 54, 54);
+}
+
+.gray-border-start-0 {
+    border-left: none;
+}
+
+.gray-border-end-0 {
+    border-right: none;
+}
+
+.team-paragraph {
+    color: gray;
+}
+
+.team-members-image {
+    width: 100%;
+}
+
+.team-members-name {
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.team-members-information {
+    font-size: 1rem;
+    color: gray;
+    width: 100%;
+}
+
+.team-header {
+    margin-top: 5rem;
+}
+
+.team-para {
+    color: gray;
+}
+
+/* Project Section */
+.white-card-div {
+    max-width: 50%;
+    top: 50%;
+    right: 0;
+}
+
+.project-section-wrapper {
+    padding-top: 7rem;
+}
+
+.services-stroke-heading {
+    -webkit-text-stroke: 1px rgb(216, 211, 211);
+    color: white;
+}
+
+.services-section-image-top-margin {
+    margin-top: 5%;
+}
+
+/* Contact Section */
+.rounded-circle-div {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+.contact-btn {
+    background-color: #004E95;
+}
+
+.contact-info-div {
+    background-color: #F9F9F9;
+}
+
+.contact-info-subheading::after {
+    content: '';
+    display: block;
+    width: 1.5rem;
+    height: 0.2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+}
+
+.contact-info-div-blue {
+    background-color: #004E91;
+    padding: 6rem 0;
+}
+
+.newsletter-email {
+    background-color: #195F9D;
+}
+
+.newsletter-email::placeholder {
+    color: white;
+}

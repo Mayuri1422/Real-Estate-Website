@@ -1,0 +1,302 @@
+@media(max-width: 1400px) {
+    .wrapper-padding {
+        padding-top: 18rem;
+    }
+
+    .residential-fortd-rightdiv {
+        margin-top: 20%;
+    }
+
+    .wrapper-padding {
+        padding-top: 11rem;
+    }
+
+    .about-us-section-blue-div {
+        margin-top: 1.5rem;
+        left: 40%;
+    }
+
+    .project-section-wrapper {
+        padding-top: 9rem;
+    }
+}
+
+@media(max-width: 1200px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+        width: 60%;
+    }
+
+    .wrapper {
+        padding-top: 13rem;
+        padding-bottom: 6rem;
+    }
+
+    .wrapper-padding {
+        padding-top: 7rem;
+    }
+
+    .client-feedback-card {
+        flex: 0 0 calc(50% - 1rem);
+    }
+
+    .navbar-btn,
+    .navbar-hero-btn {
+        width: 11rem;
+        font-size: 0.86rem;
+    }
+
+    .residential-fortd-rightdiv {
+        margin-top: 15%;
+    }
+
+    .residential-fortd-section2-divs {
+        height: 7.5rem;
+        text-align: center;
+    }
+
+    .residential-fortd-section2-divs-heading {
+        font-size: 1.5rem;
+    }
+
+    .residential-fortd-button {
+        font-size: 0.75rem;
+    }
+
+    .team-members-name {
+        font-size: 1.1rem;
+    }
+
+    .project-section-wrapper {
+        padding-top: 16rem;
+    }
+}
+
+@media(max-width: 991px) {
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .wrapper-padding {
+        padding-top: 1rem;
+    }
+
+    .about-us-section-blue-div {
+        top: 20%;
+    }
+
+    .client-feedback-card {
+        flex: 0 0 calc(100% - 1rem);
+    }
+
+    .residential-fortd-rightdiv {
+        margin-top: 9%;
+    }
+
+    .residential-fortd-section2-divs-subheading {
+        font-size: 0.79rem;
+    }
+
+    .residential-fortd-section2-right-divs-img2 {
+        top: 30%;
+    }
+
+    .team-members-name {
+        font-size: 1rem;
+    }
+
+    .team-members-information {
+        font-size: 0.9rem;
+    }
+
+    .team-header {
+        margin-top: 1rem;
+    }
+
+    .project-section-wrapper {
+        padding-top: 27rem;
+    }
+}
+
+@media(max-width: 767px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.85rem;
+        width: 100%;
+    }
+
+    .wrapper-padding {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .wrapper-div {
+        padding: 2rem 0;
+    }
+
+    .about-us-section-blue-div {
+        left: 5%;
+        top: 50%;
+        width: 90%;
+    }
+
+    .about-us-section-img {
+        margin-top: 30%;
+    }
+
+    .services-card {
+        margin-top: 2rem;
+        margin-inline: auto;
+    }
+
+    .services-card-body {
+        margin-inline: auto;
+    }
+
+    .navbar-btn,
+    .navbar-hero-btn {
+        width: 9rem;
+    }
+
+    .residential-fortd-blue-div {
+        margin-left: 0%;
+    }
+
+    .why-choose-section-heading {
+        margin-top: 2rem;
+    }
+
+    .why-choose-paragraph {
+        font-size: 0.81rem;
+    }
+
+    .gray-border-start-0 {
+        border-left: 1px solid rgb(55, 54, 54);
+    }
+
+    .gray-border-end-0 {
+        border-right: 1px solid rgb(55, 54, 54);
+    }
+
+    .white-card-div {
+        max-width: 100%;
+        top: 100%;
+        right: 0;
+        left: 0;
+    }
+
+    .project-section-wrapper {
+        padding-top: 32rem;
+    }
+}
+
+@media(max-width: 579px) {
+    .services-section-image-top-margin {
+        margin-top: 0;
+    }
+
+    .text-gray {
+        font-size: 0.7rem;
+        line-height: 1.3rem;
+
+    }
+}
+
+@media(max-width: 530px) {
+    .about-us-section-img {
+        margin-top: 32%;
+    }
+
+    .why-choose-section-heading {
+        font-size: 0.9rem;
+    }
+
+    .team-header {
+        margin-top: 0;
+    }
+
+    .project-section-wrapper {
+        padding-top: 36rem;
+    }
+}
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .wrapper {
+        padding-top: 11rem;
+    }
+
+    .services-paragraphs {
+        font-size: 0.81rem;
+    }
+
+    .hero-section-scroll-down-image {
+        max-width: 3rem;
+    }
+
+    .about-us-section-half-borderd-div {
+        max-width: 100%;
+
+    }
+
+    .about-us-section-half-borderd-div p {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 470px) {
+    .blue-about-us-box {
+        bottom: -70%;
+        left: 5%;
+    }
+
+    .navbar-btn,
+    .navbar-hero-btn {
+        width: 5rem;
+        font-size: 0.7rem;
+    }
+
+    .about-us-section-img {
+        margin-top: 45%;
+    }
+}
+
+@media(max-width: 380px) {
+    .about-us-section-img {
+        margin-top: 50%;
+    }
+
+    .project-section-wrapper {
+        padding-top: 40rem;
+    }
+}
+
+@media(max-width: 346px) {
+    .about-us-section-img {
+        margin-top: 70%;
+    }
+}
